@@ -3,6 +3,7 @@
 
 
 ##你需要安装一个python3 
+
 从python.org下载python3 然后执行 `pip install -r requirements.txt`
 修改config.json
 
@@ -17,7 +18,9 @@
 }
 ```
 注意时间格式
+
 #执行
+
 将图片放在img文件夹
 在项目目录执行python change.py
 需要的图片将出现在res目录
