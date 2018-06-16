@@ -41,7 +41,7 @@ for image in image_list:
     exif = piexif.load(img.info['exif'])
     exif['Exif'][36867]=data_image_time.encode()
     exif['Exif'][36868]=data_image_time.encode()
-    img.save('res/'+data_link+'.jpg',exif=piexif.dump(exif))
+    img.save('res/'+image,exif=piexif.dump(exif))
     time_st = time_st+86400
     if time_st >= end_time:
         time_st = start_time
