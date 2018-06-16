@@ -4,7 +4,7 @@
 
 ## 你需要安装一个python3 
 
-从python.org下载python3 然后执行 `pip install -r requirements.txt`
+从python.org下载安装python3 然后执行 `pip install -r requirements.txt`
 修改config.json
 
 ```
